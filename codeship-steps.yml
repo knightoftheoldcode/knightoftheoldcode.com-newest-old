@@ -1,0 +1,3 @@
+- name: build
+  service: jekyll
+  command: bundle exec jekyll build
