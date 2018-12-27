@@ -39,7 +39,9 @@ exclude:
   - docker-compose.yml
   - Gemfile
   - Gemfile.lock
+  - lib
   - node_modules
+  - test
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

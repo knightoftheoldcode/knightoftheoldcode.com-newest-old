@@ -1,0 +1,4 @@
+jekyll:
+  build:
+    image: knightoftheoldcodecom
+    dockerfile: Dockerfile
