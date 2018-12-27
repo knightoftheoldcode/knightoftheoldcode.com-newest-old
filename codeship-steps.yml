@@ -2,10 +2,10 @@
   steps:
   - name: build
     service: jekyll
-    command: bundle exec jekyll build
+    command: bundle exec rake build
   - name: test
     service: jekyll
-    command: bundle exec rake
+    command: bundle exec rake build test
   - name: dockerhub_push
     service: jekyll
     type: push
