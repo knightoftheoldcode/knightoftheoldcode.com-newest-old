@@ -15,5 +15,5 @@
   - name: production_deploy
     tag: master
     service: jekyll
-    command: ./bin/deploy.sh
+    command: bundle exec rake build && ./bin/deploy.sh
 
