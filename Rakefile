@@ -17,3 +17,7 @@ task :clean do
   puts 'Cleaning up _site...'
   Jekyll::Commands::Clean.process({})
 end
+
+task :deploy do
+  sh './bin/deploy.sh'
+end
