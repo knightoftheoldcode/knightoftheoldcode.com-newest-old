@@ -12,3 +12,8 @@
     image_name: curtisspendlove/knightoftheoldcode-com
     registry: https://index.docker.io/v1/
     encrypted_dockercfg_path: dockercfg.encrypted
+  - name: production_deploy
+    tag: master
+    service: jekyll
+    command: ./bin/deploy.sh
+
